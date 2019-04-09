@@ -23,7 +23,7 @@ public class SimpleFactoryTest {
         ICourse course = factory.create(JavaCourse.class);
         ICourse pythonCourse = factory.create(PythonCourse.class);
         course.record();
-        System.out.println("aaa");
+        System.out.println("---------");
         pythonCourse.record();
 
     }
