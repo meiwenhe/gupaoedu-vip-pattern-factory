@@ -8,6 +8,6 @@ import com.gupaoedu.vip.pattern.factory.JavaCourse;
  */
 public class JavaCourseFactory implements ICourseFactory {
     public ICourse create() {
-        return new JavaCourse();
+           return new JavaCourse();
     }
 }
